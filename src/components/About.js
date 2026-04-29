@@ -46,7 +46,7 @@ const About = () => {
             <div className="image-placeholder">
               <img 
                 src="/images/IMG_20260220_121554.jpg.jpeg" 
-                alt="Sriram S Profile Photo"
+                alt="Sriram S Profile"
                 className="profile-photo"
               />
             </div>
