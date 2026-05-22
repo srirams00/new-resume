@@ -54,7 +54,7 @@
 
 .experience-item:hover .experience-marker {
   transform: translateX(-50%) scale(1.3);
-  box-shadow: 0 0 20px rgba(79, 70, 229, 0.5);
+  box-shadow: 0 0 20px rgba(252, 211, 77, 0.5);
 }
 
 .experience-content {
@@ -75,7 +75,7 @@
 
 .experience-content:hover {
   transform: translateY(-5px);
-  box-shadow: 0 15px 35px rgba(79, 70, 229, 0.15);
+  box-shadow: 0 15px 35px rgba(252, 211, 77, 0.15);
   border-color: var(--primary-color);
 }
 

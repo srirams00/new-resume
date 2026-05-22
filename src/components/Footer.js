@@ -26,16 +26,16 @@ const Footer = () => {
           <div className="footer-section">
             <h5>Follow Me</h5>
             <ul>
-              <li><a href="#contact">GitHub</a></li>
+              <li><a href="https://github.com/srirams00">GitHub</a></li>
               <li><a href="#contact">LinkedIn</a></li>
-              <li><a href="#contact">Twitter</a></li>
+             
             </ul>
           </div>
         </div>
 
         <div className="footer-bottom">
           <p>&copy; {currentYear} Sriram S</p>
-          <p>Made with ❤️ using React</p>
+     
         </div>
       </div>
     </footer>

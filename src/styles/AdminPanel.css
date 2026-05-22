@@ -32,8 +32,8 @@
   align-items: center;
   padding: 20px 30px;
   border-bottom: 2px solid #f0f0f0;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #FCD34D 0%, #F59E0B 100%);
+  color: #1f2937;
   border-radius: 12px 12px 0 0;
   position: sticky;
   top: 0;
@@ -110,12 +110,12 @@
 }
 
 .tab-btn:hover {
-  color: #667eea;
+  color: #F59E0B;
 }
 
 .tab-btn.active {
-  color: #667eea;
-  border-bottom-color: #667eea;
+  color: #F59E0B;
+  border-bottom-color: #F59E0B;
   background: white;
 }
 
@@ -130,8 +130,8 @@
 
 /* Add Button */
 .add-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #FCD34D 0%, #F59E0B 100%);
+  color: #1f2937;
   border: none;
   padding: 12px 20px;
   border-radius: 6px;
@@ -144,7 +144,7 @@
 
 .add-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
 }
 
 /* Project Form */
@@ -171,8 +171,8 @@
 .project-form input:focus,
 .project-form textarea:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 8px rgba(102, 126, 234, 0.2);
+  border-color: #FCD34D;
+  box-shadow: 0 0 8px rgba(252, 211, 77, 0.2);
 }
 
 .project-form textarea {
@@ -182,8 +182,8 @@
 
 /* Submit Button */
 .submit-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  color: white;
+  background: linear-gradient(135deg, #FCD34D 0%, #F59E0B 100%);
+  color: #1f2937;
   border: none;
   padding: 12px 20px;
   border-radius: 6px;
@@ -195,7 +195,7 @@
 
 .submit-btn:hover {
   transform: translateY(-2px);
-  box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 10px 20px rgba(245, 158, 11, 0.3);
 }
 
 /* Projects List */
@@ -218,8 +218,8 @@
 }
 
 .admin-project-item:hover {
-  border-color: #667eea;
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
+  border-color: #F59E0B;
+  box-shadow: 0 5px 15px rgba(245, 158, 11, 0.1);
 }
 
 .project-info h4 {
@@ -283,8 +283,8 @@
 
 .resume-name-input:focus {
   outline: none;
-  border-color: #667eea;
-  box-shadow: 0 0 8px rgba(102, 126, 234, 0.2);
+  border-color: #FCD34D;
+  box-shadow: 0 0 8px rgba(252, 211, 77, 0.2);
 }
 
 .file-input-label {
@@ -302,7 +302,7 @@
 
 .file-input-label:hover {
   background: #e8e8e8;
-  border-color: #667eea;
+  border-color: #FCD34D;
 }
 
 .file-preview {
@@ -365,8 +365,8 @@
 }
 
 .resume-item:hover {
-  border-color: #667eea;
-  box-shadow: 0 5px 15px rgba(102, 126, 234, 0.1);
+  border-color: #FCD34D;
+  box-shadow: 0 5px 15px rgba(252, 211, 77, 0.1);
 }
 
 .resume-info {
@@ -434,12 +434,12 @@
 }
 
 .admin-modal::-webkit-scrollbar-thumb {
-  background: #667eea;
+  background: #FCD34D;
   border-radius: 4px;
 }
 
 .admin-modal::-webkit-scrollbar-thumb:hover {
-  background: #764ba2;
+  background: #F59E0B;
 }
 
 /* Responsive */

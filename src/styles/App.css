@@ -5,8 +5,8 @@
 }
 
 :root {
-  --primary-color: #4f46e5;
-  --secondary-color: #10b981;
+  --primary-color: #FCD34D;
+  --secondary-color: #FBBF24;
   --text-dark: #1f2937;
   --text-light: #6b7280;
   --border-color: #e5e7eb;
@@ -60,9 +60,9 @@ body {
 }
 
 .btn-primary:hover {
-  background-color: #4338ca;
+  background-color: #F59E0B;
   transform: translateY(-2px);
-  box-shadow: 0 15px 30px rgba(79, 70, 229, 0.3);
+  box-shadow: 0 15px 30px rgba(245, 158, 11, 0.3);
 }
 
 .btn:disabled {
@@ -185,6 +185,20 @@ body {
   }
   100% {
     box-shadow: 0 0 20px rgba(79, 70, 229, 0.2);
+  }
+}
+
+@keyframes profilePop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5) rotateZ(-5deg);
+  }
+  50% {
+    transform: scale(1.1) rotateZ(2deg);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) rotateZ(0deg);
   }
 }
 

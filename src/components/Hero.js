@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import '../styles/Hero.css';
 
 const Hero = () => {
+  const [scrollY, setScrollY] = useState(0);
+
+  useEffect(() => {
+    const handleScroll = () => setScrollY(window.scrollY);
+    window.addEventListener('scroll', handleScroll);
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, []);
+
   return (
     <section className="hero" id="home">
       <div className="hero-content">
@@ -11,6 +19,7 @@ const Hero = () => {
               src="/images/IMG_20260220_121554.jpg.jpeg" 
               alt="Sriram S Profile" 
               className="hero-profile-image"
+              style={{ transform: `translateY(${scrollY * 0.1}px)` }}
             />
           </div>
         </div>
@@ -28,15 +37,15 @@ const Hero = () => {
 
         <div className="hero-highlights">
           <div className="highlight-item">
-            <h4>Frontend</h4>
+            <h4>💻 Frontend</h4>
             <p>React, CSS, JavaScript</p>
           </div>
           <div className="highlight-item">
-            <h4>Backend</h4>
+            <h4>⚙️ Backend</h4>
             <p>Node.js, Express, Databases</p>
           </div>
           <div className="highlight-item">
-            <h4>Currently</h4>
+            <h4>🎓 Currently</h4>
             <p>3rd Year BCA Student</p>
           </div>
         </div>

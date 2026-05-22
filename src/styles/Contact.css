@@ -52,7 +52,7 @@
 
 .contact-method:hover {
   transform: translateX(8px);
-  box-shadow: 0 8px 20px rgba(79, 70, 229, 0.1);
+  box-shadow: 0 8px 20px rgba(252, 211, 77, 0.1);
 }
 
 .method-icon {
@@ -110,8 +110,8 @@
 }
 
 .success-message {
-  background: linear-gradient(135deg, var(--secondary-color), #059669);
-  color: var(--white);
+  background: linear-gradient(135deg, var(--secondary-color), #F59E0B);
+  color: #1f2937;
   padding: 1rem;
   border-radius: 8px;
   margin-bottom: 1.5rem;
@@ -196,7 +196,7 @@
 .form-group select:focus {
   outline: none;
   border-color: var(--primary-color);
-  box-shadow: 0 0 0 3px rgba(79, 70, 229, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1) inset;
+  box-shadow: 0 0 0 3px rgba(252, 211, 77, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1) inset;
   background: #fafbff;
 }
 
